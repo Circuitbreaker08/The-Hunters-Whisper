@@ -28,6 +28,6 @@ onresize = (event) => {
 
 setInterval(
     () => {
-        ctx.fillStyle = "#00FF00"
+        ctx.fillStyle = "#000000"
         ctx.fillRect(0, 0, window.innerWidth, window.innerHeight)
     }, 15)
